@@ -1,0 +1,12 @@
+singleMorph: singleAssessment.o drAssessment.o
+	gcc -o singleMorph singleAssessment.o patient.o
+	
+singleAssessment.o: singleAssessment.c patient.h
+	gcc -c singleAssessment.c
+	
+drAssessment.o: drAssessment.c
+	gcc -c drAssessment.c
+	gcc -o drAssessment drAssessment.o patient.o
+	
+clean:
+	rm -f singleMorph

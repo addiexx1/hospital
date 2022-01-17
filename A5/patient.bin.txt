@@ -1,0 +1,12 @@
+Bev                  Parrot                 12777     0   5  High Fever 
+Bev                  Guy                     5386     1   2  Broken Bone 
+Fraser               Smith                  12362     2   7  Drug Overdose 
+John                 Dual                    7763     3   6  COVID 
+John                 Parrot                  9172     4   6  COVID 
+Don                  Snow                   12567     5   9  Car Accident 
+Edna                 Broker                  7862     6   3  Nosebleed 
+Leslie               Guy                     3929     7   2  Broken Bone 
+Edna                 Snow                    8069     8   7  Drug Overdose 
+Bev                  Parrot                  5011     9   2  Broken Bone 
+Fraser               Little                 14421    10   9  Car Accident 
+Miya                 Klein                   5198    11   4  Mild concussion 

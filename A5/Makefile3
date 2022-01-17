@@ -1,0 +1,12 @@
+multiSpawn: multiSpawn.o drAssessment.o
+	gcc -o multiSpawn multiSpawn.o patient.o
+	
+multiSpawn.o: multiSpawn.c patient.h
+	gcc -c multiSpawn.c
+	
+drAssessment.o: drAssessment.c
+	gcc -c drAssessment.c
+	gcc -o drAssessment drAssessment.o patient.o
+	
+clean:
+	rm -f multiSpawn

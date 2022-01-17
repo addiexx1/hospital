@@ -1,0 +1,12 @@
+singleSpawn: singleSpawn.o drAssessment.o
+	gcc -o singleSpawn singleSpawn.o patient.o
+	
+singleSpawn.o: singleSpawn.c patient.h
+	gcc -c singleSpawn.c
+	
+drAssessment.o: drAssessment.c
+	gcc -c drAssessment.c
+	gcc -o drAssessment drAssessment.o patient.o
+	
+clean:
+	rm -f singleSpawn
